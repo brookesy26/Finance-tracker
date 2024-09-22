@@ -16,7 +16,7 @@ export default function TextInput({text, setState}: InputProps) {
   return (
     <section className="flex justify-between gap-5 items-center">
       <label htmlFor="incomeInput" className="">{text}</label>
-      <input type="text" id="incomeInput" className=" border-2 rounded-md h-10" onChange={getInput}></input>
+      <input type="text" id="incomeInput" className="border-2 rounded-md h-10 w-4/6" onChange={getInput}></input>
     </section>
     )
 }
